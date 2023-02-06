@@ -6,14 +6,14 @@
 
 /* Inizio Debug */
 
-.debug {
+header .debug {
     height: 50px;
     border-style: dashed;
     padding: 1rem;
 }
 
-#nav {
-    width: 400px;
+.debug-card {
+
 }
 
 /* Termine Debug */
@@ -27,6 +27,10 @@
 
 .s-between {
     justify-content: space-between;
+}
+
+.m-bottom {
+    margin-bottom: 20px;
 }
 
 /* Termine Utility */
@@ -43,9 +47,38 @@ header {
     width: 100%;
 }
 
+main {
+    padding-top: 80px;
+}
+
 .container {
-    max-width: 1200px;
+    max-width: 600px;
     margin: auto;
 }
 
+.card {
+    background-color: rgb(181, 221, 255);
+    border-radius: 5px;
+}
+.card {
+    
+}
 /* Termine Codice Principale */
+
+
+/* Inizio Mediaquery Tablet */
+
+@media screen and (min-width: 768px) {
+    
+}
+
+/* Termine Mediaquery Tablet */
+
+
+/* Inizio Mediaquery Desktop */
+
+@media screen and (min-width: 992px) {
+    
+}
+
+/* Termine Mediaquery Desktop */
