@@ -60,8 +60,8 @@ main {
     background-color: rgb(181, 221, 255);
     border-radius: 5px;
 }
-.card {
-    
+.card div{
+    padding: 1rem;
 }
 /* Termine Codice Principale */
 
