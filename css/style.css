@@ -71,6 +71,7 @@ main {
 .card div{
     padding: 1rem;
 }
+
 /* Termine Codice Principale */
 
 
@@ -102,7 +103,18 @@ main {
 /* Inizio Mediaquery Desktop */
 
 @media screen and (min-width: 992px) {
-    
+    .container {
+        max-width: 950px;
+    }
+
+    .columns {
+        display: flex;
+    }
+
+    .debug-column {
+        width: 45%;
+        margin-right: 20px;
+    }
 }
 
 /* Termine Mediaquery Desktop */
