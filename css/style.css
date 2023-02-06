@@ -12,8 +12,9 @@ header .debug {
     padding: 1rem;
 }
 
-.debug-card {
-
+.debug-column {
+    height: 300px;
+    border-style: dashed;
 }
 
 /* Termine Debug */
@@ -33,6 +34,9 @@ header .debug {
     margin-bottom: 20px;
 }
 
+.m-top {
+    margin-top: 50px;
+}
 /* Termine Utility */
 
 
