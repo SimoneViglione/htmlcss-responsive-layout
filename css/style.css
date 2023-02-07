@@ -10,7 +10,7 @@
 
 
 .debug-row {
-    background-color: var(--secondary-color);
+    
     height: 200px;
 }
 
@@ -103,7 +103,7 @@
 
 .violet-text {
     color: var(--secondary-color);
-}
+} 
 
 /* Termine Utility */
 
