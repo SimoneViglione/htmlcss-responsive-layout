@@ -39,6 +39,10 @@ header .debug {
     border-style: dashed;
 }
 
+.debug-footer {
+    height: 200px;
+}
+
 /* Termine Debug */
 
 
@@ -74,6 +78,11 @@ header .debug {
 
 .centered {
     text-align: center;
+}
+
+.container-small {
+    max-width: 550px;
+    margin: auto;
 }
 
 /* Termine Utility */
@@ -117,6 +126,10 @@ main {
 
 .about-us {
     margin-right: 1rem;
+}
+
+footer {
+    background-color: rgb(51, 51, 51);
 }
 
 /* Termine Codice Principale */
