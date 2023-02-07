@@ -2,15 +2,10 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 /* Inizio Debug */
-
-header .debug {
-    height: 50px;
-    border-style: dashed;
-    padding: 1rem;
-}
 
 .debug-column {
     height: 300px;
@@ -85,6 +80,15 @@ header .debug {
     margin: auto;
 }
 
+.ls-none {
+    list-style: none;
+    text-decoration: none;
+}
+
+.a-center {
+    align-items: center;
+}
+
 /* Termine Utility */
 
 
@@ -101,6 +105,21 @@ header {
 
 main {
     padding-top: 80px;
+}
+
+.logo {
+    height: 2rem;
+    padding-left: 1rem;
+}
+
+.navbars i {
+    color: white;
+    padding-right: 1rem;
+    height: 2rem;
+}
+
+.main-menu {
+    display: none;
 }
 
 .violet-bg {
@@ -188,6 +207,22 @@ footer {
 @media screen and (min-width: 992px) {
     .container {
         max-width: 950px;
+    }
+    
+    .navbars {
+        display: none;
+    }
+
+    .main-menu {
+        display: block;
+    }
+    .main-menu ul {
+        display: flex;
+    }
+    .main-menu a {
+        padding-right: 1rem;
+        text-decoration: none;
+        color: white;
     }
 
     .columns {

@@ -7,12 +7,27 @@
     <title>Responsive Layout</title>
 
     <link rel="Stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <header>
-        <div class="container d-flex s-between">
-            <div class="debug">LOGO</div>
-            <div class="debug">NAV MENU</div>
+    <header class="header-container">
+        <div class="container d-flex s-between a-center">
+            <img class="logo" src="img/logo.png" alt="log"/>
+
+            <div class="navbars">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            
+            <nav class="main-menu">
+                <ul class="ls-none">
+                    <li><a href="#">Planning</a></li>
+                    <li><a href="#">Testimonials</a></li>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li class="button"><a href="#">Get Started</a></li>
+                </ul>
+            </nav>
+
         </div>
     </header>
 
@@ -147,7 +162,7 @@
 
     <footer>
         <div class="container-small">
-            <div class="centered debug-footer">
+            <div class="centered p-top debug-footer">
                 <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam ipsum voluptas, nisi ratione cumque nam.</p>
 
             </div>
