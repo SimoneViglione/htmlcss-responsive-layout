@@ -27,6 +27,12 @@ header .debug {
     height: 200px;
 }
 
+.debug-fifth {
+    height: 400px;
+    background-color: aquamarine;
+    border-style: dashed;
+}
+
 /* Termine Debug */
 
 
@@ -97,6 +103,10 @@ main {
 
 #fourth h2 {
     text-align: center;
+}
+
+.about-us {
+    margin-right: 1rem;
 }
 
 /* Termine Codice Principale */
