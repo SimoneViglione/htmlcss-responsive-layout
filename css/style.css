@@ -17,10 +17,19 @@ header .debug {
     border-style: dashed;
 }
 
+.debug-row {
+    background-color: var(--secondary-color);
+    height: 200px;
+}
+
 /* Termine Debug */
 
 
 /* Inizio Utility */
+
+:root {
+    --secondary-color: rgb(151, 146, 228);
+}
 
 .d-flex {
     display: flex;
@@ -37,6 +46,11 @@ header .debug {
 .m-top {
     margin-top: 50px;
 }
+
+.b-radius {
+    border-radius: 25px;
+}
+
 /* Termine Utility */
 
 
