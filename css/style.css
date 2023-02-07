@@ -22,6 +22,11 @@ header .debug {
     height: 200px;
 }
 
+.debug-card {
+    background-color: white;
+    height: 200px;
+}
+
 /* Termine Debug */
 
 
