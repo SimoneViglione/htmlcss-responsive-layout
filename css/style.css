@@ -97,14 +97,11 @@
 
 .button-white {
     background-color: white;
+    color: black;
 }
 .button-blue {
     background-color: rgb(0, 132, 253);
     width: max-content  ;
-}
-
-.f-col {
-    flex-direction: column;
 }
 
 /* Termine Utility */
@@ -142,18 +139,17 @@ main {
     display: none;
 }
 
-
-
 .phone-container img{
     max-width: 200px;
 }
 
 .card {
     background-color: rgb(181, 221, 255);
-    border-radius: 5px;
+    border-radius: 25px;
+    margin: 1rem;
 }
-.card div{
-    padding: 0 1rem;
+.card-container {
+    padding: 30px 30px 0;
 }
 
 #fourth h2 {
