@@ -7,17 +7,12 @@
 
 /* Inizio Debug */
 
-.debug-column {
-    height: 300px;
-    border-style: dashed;
-}
+
 
 .debug-row {
     background-color: var(--secondary-color);
     height: 200px;
 }
-
-
 
 .debug-fifth {
     height: 400px;
@@ -45,7 +40,7 @@
 }
 
 .violet-bg {
-    background-color: rgb(151, 146, 228);
+    background-color: var(--secondary-color);
 }
 
 .container {
@@ -152,8 +147,12 @@ main {
     padding: 30px 30px 0;
 }
 
-#fourth h2 {
-    text-align: center;
+.column img {
+    width: 100%;
+}
+.column h3, p {
+    margin: 20px 10px;
+    color: white;
 }
 
 .about-us {
