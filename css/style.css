@@ -33,6 +33,12 @@ header .debug {
     border-style: dashed;
 }
 
+.debug-sixth {
+    height: 300px;
+    text-align: center;
+    border-style: dashed;
+}
+
 /* Termine Debug */
 
 
@@ -64,6 +70,10 @@ header .debug {
 
 .b-radius {
     border-radius: 25px;
+}
+
+.centered {
+    text-align: center;
 }
 
 /* Termine Utility */
