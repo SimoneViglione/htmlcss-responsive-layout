@@ -52,6 +52,10 @@ header .debug {
     margin-top: 50px;
 }
 
+.p-top {
+    padding-top: 1rem;
+}
+
 .b-radius {
     border-radius: 25px;
 }
@@ -91,6 +95,10 @@ main {
     padding: 1rem;
 }
 
+#fourth h2 {
+    text-align: center;
+}
+
 /* Termine Codice Principale */
 
 
@@ -114,6 +122,17 @@ main {
     .card:first-child {
         width: calc((100% / 3 * 2) - 1.5rem);
     }
+
+    .benefits-cards {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .benefits-card {
+        width: calc(50% - 2rem);
+        margin: 1rem;
+    }
+    
 }
 
 /* Termine Mediaquery Tablet */
@@ -133,6 +152,11 @@ main {
     .debug-column {
         width: 45%;
         margin-right: 20px;
+    }
+
+    .benefits-card {
+        width: calc((100% / 3) - 2rem);
+        margin: 1rem;
     }
 }
 
