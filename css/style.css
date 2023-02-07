@@ -20,12 +20,6 @@
     border-style: dashed;
 }
 
-.debug-sixth {
-    height: 300px;
-    text-align: center;
-    border-style: dashed;
-}
-
 .debug-footer {
     height: 200px;
 }
@@ -97,6 +91,10 @@
 .button-blue {
     background-color: rgb(0, 132, 253);
     width: max-content  ;
+}
+
+.white-text {
+    color: white;
 }
 
 /* Termine Utility */
@@ -183,6 +181,15 @@ main {
 
 .about-us {
     margin-right: 1rem;
+}
+
+#sixth * {
+    padding: 1rem 0;
+}
+
+.big-yellow-title {
+    font-size: 4rem;
+    color: rgb(252, 192, 96);
 }
 
 footer {
